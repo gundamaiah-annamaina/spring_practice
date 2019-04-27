@@ -1,0 +1,12 @@
+server:
+  port: 4455
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+    show-sql: true
+  h2:
+    console:
+      enabled: true
